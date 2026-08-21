@@ -15,7 +15,7 @@ if __name__ == "__main__":
     url = "https://picsum.photos/2000/3000"
     process = []
     # Create 50 processes
-    for i in range(5):
+    for i in range(1000):
         p = multiprocessing.Process(
             target=downloadFile,
             args=(url, i)
