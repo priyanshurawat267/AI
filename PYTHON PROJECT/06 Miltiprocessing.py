@@ -14,7 +14,7 @@ if __name__ == "__main__":
     os.makedirs("files", exist_ok=True)
     url = "https://picsum.photos/2000/3000"
     process = []
-    # Create 50 processes
+    # Create 3000 processes
     for i in range(1000):
         p = multiprocessing.Process(
             target=downloadFile,
